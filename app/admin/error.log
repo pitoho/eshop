@@ -1,0 +1,333 @@
+27-05-2024 16:46:34 - SQLSTATE[HY000] [2002] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение in C:\Users\User\Documents\eshop\core\Eshop.class.php:6
+27-05-2024 17:23:51 - SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO) in C:\Users\User\Documents\eshop\core\Eshop.class.php:6
+27-05-2024 17:33:51 - Eshop::init(): Argument #1 ($db) must be of type array, PDO given, called in C:\Users\User\Documents\eshop\core\init.php on line 44 in C:\Users\User\Documents\eshop\core\Eshop.class.php:4
+27-05-2024 17:36:23 - Undefined variable $order in C:\Users\User\Documents\eshop\core\init.php:40
+27-05-2024 17:36:23 - Attempt to read property "id" on null in C:\Users\User\Documents\eshop\core\init.php:40
+27-05-2024 17:36:23 - Undefined variable $order in C:\Users\User\Documents\eshop\core\init.php:40
+27-05-2024 17:36:23 - Attempt to read property "customer" on null in C:\Users\User\Documents\eshop\core\init.php:40
+27-05-2024 17:36:23 - Undefined variable $order in C:\Users\User\Documents\eshop\core\init.php:40
+27-05-2024 17:36:23 - Attempt to read property "email" on null in C:\Users\User\Documents\eshop\core\init.php:40
+27-05-2024 17:36:23 - Undefined variable $order in C:\Users\User\Documents\eshop\core\init.php:40
+27-05-2024 17:36:23 - Attempt to read property "phone" on null in C:\Users\User\Documents\eshop\core\init.php:40
+27-05-2024 17:36:23 - Undefined variable $order in C:\Users\User\Documents\eshop\core\init.php:40
+27-05-2024 17:36:23 - Attempt to read property "address" on null in C:\Users\User\Documents\eshop\core\init.php:40
+27-05-2024 17:36:23 - Cannot access "self" when no class scope is active in C:\Users\User\Documents\eshop\core\init.php:42
+27-05-2024 17:38:57 - Eshop::init(): Argument #1 ($db) must be of type array, PDO given, called in C:\Users\User\Documents\eshop\core\init.php on line 44 in C:\Users\User\Documents\eshop\core\Eshop.class.php:4
+27-05-2024 17:44:01 - Eshop::init(): Argument #1 ($db) must be of type array, PDO given, called in C:\Users\User\Documents\eshop\core\init.php on line 44 in C:\Users\User\Documents\eshop\core\Eshop.class.php:4
+27-05-2024 17:44:30 - Eshop::init(): Argument #1 ($db) must be of type array, PDO given, called in C:\Users\User\Documents\eshop\core\init.php on line 44 in C:\Users\User\Documents\eshop\core\Eshop.class.php:4
+27-05-2024 17:48:23 - Eshop::init(): Argument #1 ($db) must be of type array, PDO given, called in C:\Users\User\Documents\eshop\core\init.php on line 44 in C:\Users\User\Documents\eshop\core\Eshop.class.php:5
+27-05-2024 17:49:40 - SQLSTATE[42883]: Undefined function: 7 ОШИБКА:  процедура spgetcatalog() не существует
+LINE 1: Call spGetCatalog()
+             ^
+HINT:  Процедура с данными именем и типами аргументов не найдена. Возможно, вам следует добавить явные приведения типов. in C:\Users\User\Documents\eshop\core\Eshop.class.php:20
+27-05-2024 17:52:09 - SQLSTATE[42883]: Undefined function: 7 ОШИБКА:  процедура spgetcatalog() не существует
+LINE 1: Call spGetCatalog()
+             ^
+HINT:  Процедура с данными именем и типами аргументов не найдена. Возможно, вам следует добавить явные приведения типов. in C:\Users\User\Documents\eshop\core\Eshop.class.php:20
+27-05-2024 17:58:58 - Undefined variable $db in C:\Users\User\Documents\eshop\core\init.php:37
+27-05-2024 17:58:58 - Eshop::init(): Argument #1 ($db) must be of type array, null given, called in C:\Users\User\Documents\eshop\core\init.php on line 37 in C:\Users\User\Documents\eshop\core\Eshop.class.php:5
+27-05-2024 18:00:35 - Access to undeclared static property Eshop::$dsn in C:\Users\User\Documents\eshop\core\Eshop.class.php:7
+27-05-2024 18:01:34 - SQLSTATE[42883]: Undefined function: 7 ОШИБКА:  процедура spgetcatalog() не существует
+LINE 1: Call spGetCatalog()
+             ^
+HINT:  Процедура с данными именем и типами аргументов не найдена. Возможно, вам следует добавить явные приведения типов. in C:\Users\User\Documents\eshop\core\Eshop.class.php:22
+27-05-2024 18:07:42 - SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "id"
+LINE 1: SELECT id, title, author, price, pubyear
+               ^
+DETAIL:  Подразумевается ссылка на переменную PL/pgSQL или столбец таблицы.
+QUERY:  SELECT id, title, author, price, pubyear
+    FROM catalog
+CONTEXT:  функция PL/pgSQL spgetcatalog(), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:22
+27-05-2024 19:04:26 - SQLSTATE[42601]: Syntax error: 7 ОШИБКА:  в запросе нет назначения для данных результата
+HINT:  Если вам нужно отбросить результаты SELECT, используйте PERFORM.
+CONTEXT:  функция PL/pgSQL spgetcatalog(), строка 3, оператор SQL-оператор in C:\Users\User\Documents\eshop\core\Eshop.class.php:22
+27-05-2024 19:41:39 - Creation of dynamic property Book::$spgetcatalog is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:25
+27-05-2024 19:41:39 - Creation of dynamic property Book::$spgetcatalog is deprecated in C:\Users\User\Documents\eshop\app\catalog.php:24
+27-05-2024 19:41:39 - Creation of dynamic property Book::$spgetcatalog is deprecated in C:\Users\User\Documents\eshop\app\catalog.php:24
+27-05-2024 19:42:45 - Creation of dynamic property Book::$spgetcatalog is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:25
+27-05-2024 19:42:45 - Creation of dynamic property Book::$spgetcatalog is deprecated in C:\Users\User\Documents\eshop\app\catalog.php:24
+27-05-2024 19:42:45 - Creation of dynamic property Book::$spgetcatalog is deprecated in C:\Users\User\Documents\eshop\app\catalog.php:24
+27-05-2024 19:42:46 - Creation of dynamic property Book::$spgetcatalog is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:25
+27-05-2024 19:42:46 - Creation of dynamic property Book::$spgetcatalog is deprecated in C:\Users\User\Documents\eshop\app\catalog.php:24
+27-05-2024 19:42:46 - Creation of dynamic property Book::$spgetcatalog is deprecated in C:\Users\User\Documents\eshop\app\catalog.php:24
+27-05-2024 19:47:14 - SQLSTATE[42601]: Syntax error: 7 ОШИБКА:  в запросе нет назначения для данных результата
+HINT:  Если вам нужно отбросить результаты SELECT, используйте PERFORM.
+CONTEXT:  функция PL/pgSQL spgetcatalog(), строка 3, оператор SQL-оператор in C:\Users\User\Documents\eshop\core\Eshop.class.php:22
+27-05-2024 19:55:19 - Undefined array key "id" in C:\Users\User\Documents\eshop\core\Eshop.class.php:29
+27-05-2024 19:55:19 - Undefined array key "title" in C:\Users\User\Documents\eshop\core\Eshop.class.php:30
+27-05-2024 19:55:19 - Undefined array key "author" in C:\Users\User\Documents\eshop\core\Eshop.class.php:31
+27-05-2024 19:55:19 - Undefined array key "price" in C:\Users\User\Documents\eshop\core\Eshop.class.php:32
+27-05-2024 19:55:19 - Undefined array key "pubyear" in C:\Users\User\Documents\eshop\core\Eshop.class.php:33
+27-05-2024 19:55:19 - Book::__construct(): Argument #1 ($item) must be of type array, null given, called in C:\Users\User\Documents\eshop\core\Eshop.class.php on line 28 in C:\Users\User\Documents\eshop\core\Book.class.php:11
+27-05-2024 19:56:23 - Book::__construct(): Argument #1 ($item) must be of type array, int given, called in C:\Users\User\Documents\eshop\core\Eshop.class.php on line 28 in C:\Users\User\Documents\eshop\core\Book.class.php:11
+27-05-2024 19:58:49 - SQLSTATE[42883]: Undefined function: 7 ОШИБКА:  процедура spgetitemsforbasket(unknown) не существует
+LINE 1: CALL spGetItemsForBasket('1')
+             ^
+HINT:  Процедура с данными именем и типами аргументов не найдена. Возможно, вам следует добавить явные приведения типов. in C:\Users\User\Documents\eshop\core\Eshop.class.php:61
+27-05-2024 20:22:23 - SQLSTATE[42883]: Undefined function: 7 ОШИБКА:  процедура spgetitemsforbasket(unknown) не существует
+LINE 1: CALL spGetItemsForBasket('1')
+             ^
+HINT:  Процедура с данными именем и типами аргументов не найдена. Возможно, вам следует добавить явные приведения типов. in C:\Users\User\Documents\eshop\core\Eshop.class.php:61
+27-05-2024 20:22:40 - SQLSTATE[42883]: Undefined function: 7 ОШИБКА:  процедура spgetitemsforbasket(unknown) не существует
+LINE 1: CALL spGetItemsForBasket('1')
+             ^
+HINT:  Процедура с данными именем и типами аргументов не найдена. Возможно, вам следует добавить явные приведения типов. in C:\Users\User\Documents\eshop\core\Eshop.class.php:61
+27-05-2024 20:24:21 - SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "id"
+LINE 2:     WHERE id = ANY(string_to_array(ids, ',')::INT[])
+                  ^
+DETAIL:  Подразумевается ссылка на переменную PL/pgSQL или столбец таблицы.
+QUERY:  SELECT * FROM catalog
+    WHERE id = ANY(string_to_array(ids, ',')::INT[])
+CONTEXT:  функция PL/pgSQL spgetitemsforbasket(character varying), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:61
+27-05-2024 20:26:19 - Creation of dynamic property Book::$spgetitemsforbasket is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:62
+27-05-2024 20:26:19 - Basket::quantity(): Argument #1 ($id) must be of type int, null given, called in C:\Users\User\Documents\eshop\core\Eshop.class.php on line 66 in C:\Users\User\Documents\eshop\core\Basket.class.php:41
+27-05-2024 20:33:54 - Object of class Book could not be converted to string in C:\Users\User\Documents\eshop\app\admin\save_item_to_catalog.php:10
+27-05-2024 20:34:13 - Object of class Book could not be converted to string in C:\Users\User\Documents\eshop\app\admin\save_item_to_catalog.php:10
+27-05-2024 20:40:41 - SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "id"
+LINE 1: SELECT id, customer, email, phone, address, EXTRACT(EPOCH FR...
+               ^
+DETAIL:  Подразумевается ссылка на переменную PL/pgSQL или столбец таблицы.
+QUERY:  SELECT id, customer, email, phone, address, EXTRACT(EPOCH FROM datetime) AS date
+    FROM orders
+CONTEXT:  функция PL/pgSQL spgetorders(), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:136
+27-05-2024 20:45:39 - SQLSTATE[HY093]: Invalid parameter number: :title in C:\Users\User\Documents\eshop\core\Eshop.class.php:33
+27-05-2024 20:45:43 - SQLSTATE[HY093]: Invalid parameter number: :title in C:\Users\User\Documents\eshop\core\Eshop.class.php:33
+27-05-2024 20:48:37 - PDOStatement::execute(): Argument #1 ($params) must be of type ?array, string given in C:\Users\User\Documents\eshop\core\Eshop.class.php:28
+27-05-2024 20:52:34 - Undefined variable $params in C:\Users\User\Documents\eshop\core\Eshop.class.php:26
+27-05-2024 20:53:14 - PDOStatement::execute(): Argument #1 ($params) must be of type ?array, Book given in C:\Users\User\Documents\eshop\core\Eshop.class.php:26
+27-05-2024 20:55:58 - Array to string conversion in C:\Users\User\Documents\eshop\core\Eshop.class.php:30
+27-05-2024 20:55:58 - Eshop::addItemToCatalog(): Return value must be of type bool, none returned in C:\Users\User\Documents\eshop\core\Eshop.class.php:42
+27-05-2024 20:56:36 - Array to string conversion in C:\Users\User\Documents\eshop\core\Eshop.class.php:30
+27-05-2024 20:56:48 - Array to string conversion in C:\Users\User\Documents\eshop\core\Eshop.class.php:30
+27-05-2024 21:01:50 - implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\User\Documents\eshop\core\Eshop.class.php:23
+27-05-2024 21:08:22 - SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "id"
+LINE 1: SELECT id, customer, email, phone, address, EXTRACT(EPOCH FR...
+               ^
+DETAIL:  Подразумевается ссылка на переменную PL/pgSQL или столбец таблицы.
+QUERY:  SELECT id, customer, email, phone, address, EXTRACT(EPOCH FROM datetime) AS date
+    FROM orders
+CONTEXT:  функция PL/pgSQL spgetorders(), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:125
+27-05-2024 21:11:01 - SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "id"
+LINE 1: SELECT id, customer, email, phone, address, EXTRACT(EPOCH FR...
+               ^
+DETAIL:  Подразумевается ссылка на переменную PL/pgSQL или столбец таблицы.
+QUERY:  SELECT id, customer, email, phone, address, EXTRACT(EPOCH FROM datetime) AS date
+    FROM orders
+CONTEXT:  функция PL/pgSQL spgetorders(), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:125
+27-05-2024 21:12:10 - SQLSTATE[42804]: Datatype mismatch: 7 ОШИБКА:  structure of query does not match function result type
+DETAIL:  Возвращаемый тип numeric не соответствует ожидаемому типу bigint в столбце 6.
+CONTEXT:  SQL-оператор: "SELECT orders.id, orders.customer, orders.email, orders.phone, orders.address, EXTRACT(EPOCH FROM datetime) AS date
+    FROM orders"
+функция PL/pgSQL spgetorders(), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:125
+27-05-2024 21:12:12 - SQLSTATE[42804]: Datatype mismatch: 7 ОШИБКА:  structure of query does not match function result type
+DETAIL:  Возвращаемый тип numeric не соответствует ожидаемому типу bigint в столбце 6.
+CONTEXT:  SQL-оператор: "SELECT orders.id, orders.customer, orders.email, orders.phone, orders.address, EXTRACT(EPOCH FROM datetime) AS date
+    FROM orders"
+функция PL/pgSQL spgetorders(), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:125
+27-05-2024 21:15:50 - Creation of dynamic property Order::$spgetorders is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:126
+27-05-2024 21:15:50 - SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "order_id"
+LINE 4:     WHERE oi.order_id = order_id
+                                ^
+DETAIL:  Подразумевается ссылка на переменную PL/pgSQL или столбец таблицы.
+QUERY:  SELECT c.title, c.author, c.price, c.pubyear, oi.quantity
+    FROM catalog c
+    JOIN ordered_items oi ON c.id = oi.item_id
+    WHERE oi.order_id = order_id
+CONTEXT:  функция PL/pgSQL spgetordereditems(character varying), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:134
+27-05-2024 21:18:41 - Creation of dynamic property Order::$spgetorders is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:126
+27-05-2024 21:18:41 - SQLSTATE[42P01]: Undefined table: 7 ОШИБКА:  в элементе предложения FROM неверная ссылка на таблицу "ordered_items"
+LINE 4:     WHERE oi.order_id = ordered_items.order_id
+                                ^
+HINT:  Возможно, предполагалась ссылка на псевдоним таблицы "oi".
+QUERY:  SELECT c.title, c.author, c.price, c.pubyear, oi.quantity
+    FROM catalog c
+    JOIN ordered_items oi ON c.id = oi.item_id
+    WHERE oi.order_id = ordered_items.order_id
+CONTEXT:  функция PL/pgSQL spgetordereditems(character varying), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:134
+27-05-2024 21:19:23 - Creation of dynamic property Order::$spgetorders is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:126
+27-05-2024 21:19:23 - Creation of dynamic property Book::$spgetordereditems is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:135
+27-05-2024 21:19:23 - Creation of dynamic property Book::$spgetordereditems is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:135
+27-05-2024 21:35:07 - Undefined array key "title" in C:\Users\User\Documents\eshop\core\Book.class.php:14
+27-05-2024 21:35:07 - Undefined array key "author" in C:\Users\User\Documents\eshop\core\Book.class.php:15
+27-05-2024 21:35:07 - Undefined array key "price" in C:\Users\User\Documents\eshop\core\Book.class.php:16
+27-05-2024 21:35:07 - Undefined array key "pubyear" in C:\Users\User\Documents\eshop\core\Book.class.php:17
+27-05-2024 21:35:07 - Eshop::saveUser(): Argument #1 ($item) must be of type User, Book given, called in C:\Users\User\Documents\eshop\app\admin\save_user.php on line 4 in C:\Users\User\Documents\eshop\core\Eshop.class.php:131
+27-05-2024 21:39:56 - Eshop::cleanItem(): Argument #1 ($item) must be of type Book, User given, called in C:\Users\User\Documents\eshop\core\Eshop.class.php on line 132 in C:\Users\User\Documents\eshop\core\Eshop.class.php:34
+27-05-2024 21:41:47 - Creation of dynamic property User::$title is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:43
+27-05-2024 21:41:47 - Creation of dynamic property User::$author is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:44
+27-05-2024 21:41:47 - Creation of dynamic property User::$price is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:45
+27-05-2024 21:41:47 - Undefined property: User::$pubyear in C:\Users\User\Documents\eshop\core\Eshop.class.php:139
+27-05-2024 21:41:47 - Undefined constant "SAVE_USER_OK" in C:\Users\User\Documents\eshop\app\admin\save_user.php:6
+27-05-2024 21:44:09 - Creation of dynamic property User::$title is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:43
+27-05-2024 21:44:09 - Creation of dynamic property User::$author is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:44
+27-05-2024 21:44:09 - Creation of dynamic property User::$price is deprecated in C:\Users\User\Documents\eshop\core\Eshop.class.php:45
+27-05-2024 21:51:55 - SQLSTATE[42703]: Undefined column: 7 ОШИБКА:  столбец "users" в таблице "users" не существует
+LINE 1: INSERT INTO users (users.login, users.password, users.email)
+                           ^
+QUERY:  INSERT INTO users (users.login, users.password, users.email)
+  VALUES (u_login, u_password, u_email)
+CONTEXT:  функция PL/pgSQL spsaveuser(character varying,character varying,character varying), строка 3, оператор SQL-оператор in C:\Users\User\Documents\eshop\core\Eshop.class.php:146
+27-05-2024 22:01:16 - PDOStatement::execute(): Argument #1 ($params) must be of type ?array, string given in C:\Users\User\Documents\eshop\core\Eshop.class.php:162
+27-05-2024 22:03:15 - implode(): Argument #2 ($array) must be of type ?array, string given in C:\Users\User\Documents\eshop\core\Eshop.class.php:162
+27-05-2024 22:04:55 - Object of class PDOStatement could not be converted to string in C:\Users\User\Documents\eshop\core\Eshop.class.php:162
+27-05-2024 22:21:02 - Call to undefined method User::md5() in C:\Users\User\Documents\eshop\core\Eshop.class.php:140
+27-05-2024 22:22:13 - Call to undefined method User::hash() in C:\Users\User\Documents\eshop\core\Eshop.class.php:140
+27-05-2024 22:24:07 - Call to undefined method User::password_hash() in C:\Users\User\Documents\eshop\core\Eshop.class.php:140
+27-05-2024 22:28:52 - Call to undefined method User::password_hash() in C:\Users\User\Documents\eshop\core\Eshop.class.php:140
+28-05-2024 09:20:14 - SQLSTATE[42883]: Undefined function: 7 ОШИБКА:  функция spgetuser() не существует
+LINE 1: SELECT * FROM spGetUser()
+                      ^
+HINT:  Функция с данными именем и типами аргументов не найдена. Возможно, вам следует добавить явные приведения типов. in C:\Users\User\Documents\eshop\core\Eshop.class.php:13
+28-05-2024 09:28:29 - Call to undefined method Eshop::connectDb() in C:\Users\User\Documents\eshop\app\admin\login.php:3
+28-05-2024 09:29:25 - Too few arguments to function Eshop::init(), 0 passed in C:\Users\User\Documents\eshop\app\admin\login.php on line 3 and exactly 1 expected in C:\Users\User\Documents\eshop\core\Eshop.class.php:5
+28-05-2024 09:29:50 - Undefined variable $username in C:\Users\User\Documents\eshop\app\admin\login.php:4
+28-05-2024 09:29:50 - Eshop::getUserByLogin(): Argument #1 ($login) must be of type string, null given, called in C:\Users\User\Documents\eshop\app\admin\login.php on line 4 in C:\Users\User\Documents\eshop\core\Eshop.class.php:11
+28-05-2024 09:34:46 - SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "id"
+LINE 1: SELECT id, login, password AS hash, email
+               ^
+DETAIL:  Подразумевается ссылка на переменную PL/pgSQL или столбец таблицы.
+QUERY:  SELECT id, login, password AS hash, email
+    FROM users
+    WHERE login = u_login
+CONTEXT:  функция PL/pgSQL spgetuser(character varying), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:15
+28-05-2024 09:36:57 - SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "login"
+LINE 1: SELECT login, password AS hash, email
+               ^
+DETAIL:  Подразумевается ссылка на переменную PL/pgSQL или столбец таблицы.
+QUERY:  SELECT login, password AS hash, email
+    FROM users
+    WHERE login = u_login
+CONTEXT:  функция PL/pgSQL spgetuser(character varying), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:15
+28-05-2024 09:38:16 - SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "id"
+LINE 1: SELECT id, login, password
+               ^
+DETAIL:  Подразумевается ссылка на переменную PL/pgSQL или столбец таблицы.
+QUERY:  SELECT id, login, password
+    FROM users
+    WHERE login = u_login
+CONTEXT:  функция PL/pgSQL spgetuser(character varying), строка 3, оператор RETURN QUERY in C:\Users\User\Documents\eshop\core\Eshop.class.php:15
+28-05-2024 09:44:39 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 09:44:39 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 09:44:39 - Undefined property: User::$hash in C:\Users\User\Documents\eshop\app\admin\login.php:10
+28-05-2024 09:44:39 - password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\Users\User\Documents\eshop\app\admin\login.php:10
+28-05-2024 09:45:23 - Undefined array key "login" in C:\Users\User\Documents\eshop\app\admin\login.php:4
+28-05-2024 09:45:23 - Undefined array key "password" in C:\Users\User\Documents\eshop\app\admin\login.php:5
+28-05-2024 09:45:23 - Eshop::getUserByLogin(): Argument #1 ($login) must be of type string, null given, called in C:\Users\User\Documents\eshop\app\admin\login.php on line 7 in C:\Users\User\Documents\eshop\core\Eshop.class.php:11
+28-05-2024 09:46:22 - Undefined array key "login" in C:\Users\User\Documents\eshop\app\admin\login.php:4
+28-05-2024 09:46:22 - Undefined array key "hash" in C:\Users\User\Documents\eshop\app\admin\login.php:5
+28-05-2024 09:46:22 - Eshop::getUserByLogin(): Argument #1 ($login) must be of type string, null given, called in C:\Users\User\Documents\eshop\app\admin\login.php on line 7 in C:\Users\User\Documents\eshop\core\Eshop.class.php:11
+28-05-2024 09:47:00 - Array to string conversion in C:\Users\User\Documents\eshop\app\admin\login.php:4
+28-05-2024 09:47:00 - Undefined array key "hash" in C:\Users\User\Documents\eshop\app\admin\login.php:5
+28-05-2024 09:47:00 - Undefined variable $username in C:\Users\User\Documents\eshop\app\admin\login.php:7
+28-05-2024 09:47:00 - Eshop::getUserByLogin(): Argument #1 ($login) must be of type string, null given, called in C:\Users\User\Documents\eshop\app\admin\login.php on line 7 in C:\Users\User\Documents\eshop\core\Eshop.class.php:11
+28-05-2024 09:47:39 - Undefined array key "hash" in C:\Users\User\Documents\eshop\app\admin\login.php:5
+28-05-2024 09:47:39 - Undefined variable $username in C:\Users\User\Documents\eshop\app\admin\login.php:7
+28-05-2024 09:47:39 - Eshop::getUserByLogin(): Argument #1 ($login) must be of type string, null given, called in C:\Users\User\Documents\eshop\app\admin\login.php on line 7 in C:\Users\User\Documents\eshop\core\Eshop.class.php:11
+28-05-2024 09:49:20 - Undefined array key "login" in C:\Users\User\Documents\eshop\app\admin\login.php:4
+28-05-2024 09:49:20 - Undefined array key "hash" in C:\Users\User\Documents\eshop\app\admin\login.php:5
+28-05-2024 09:49:20 - Eshop::getUserByLogin(): Argument #1 ($login) must be of type string, null given, called in C:\Users\User\Documents\eshop\app\admin\login.php on line 7 in C:\Users\User\Documents\eshop\core\Eshop.class.php:11
+28-05-2024 09:50:39 - Undefined array key "login" in C:\Users\User\Documents\eshop\app\admin\login.php:4
+28-05-2024 09:50:39 - Undefined array key "password" in C:\Users\User\Documents\eshop\app\admin\login.php:5
+28-05-2024 09:50:39 - Eshop::getUserByLogin(): Argument #1 ($login) must be of type string, null given, called in C:\Users\User\Documents\eshop\app\admin\login.php on line 7 in C:\Users\User\Documents\eshop\core\Eshop.class.php:11
+28-05-2024 09:53:22 - Undefined array key "login" in C:\Users\User\Documents\eshop\app\admin\login.php:4
+28-05-2024 09:53:22 - Undefined array key "password" in C:\Users\User\Documents\eshop\app\admin\login.php:5
+28-05-2024 09:53:22 - Eshop::getUserByLogin(): Argument #1 ($login) must be of type string, null given, called in C:\Users\User\Documents\eshop\app\admin\login.php on line 7 in C:\Users\User\Documents\eshop\core\Eshop.class.php:11
+28-05-2024 09:53:24 - Undefined array key "login" in C:\Users\User\Documents\eshop\app\admin\login.php:4
+28-05-2024 09:53:24 - Undefined array key "password" in C:\Users\User\Documents\eshop\app\admin\login.php:5
+28-05-2024 09:53:24 - Eshop::getUserByLogin(): Argument #1 ($login) must be of type string, null given, called in C:\Users\User\Documents\eshop\app\admin\login.php on line 7 in C:\Users\User\Documents\eshop\core\Eshop.class.php:11
+28-05-2024 10:45:43 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:45:43 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:45:43 - Creation of dynamic property User::$hash is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:50:07 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:50:07 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:50:07 - Creation of dynamic property User::$hash is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:50:37 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:50:37 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:50:37 - Creation of dynamic property User::$hash is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:56:15 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:56:15 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:56:15 - Creation of dynamic property User::$hash is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:56:22 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:56:22 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:56:22 - Creation of dynamic property User::$hash is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:56:27 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:56:27 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:56:27 - Creation of dynamic property User::$hash is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:57:33 - Creation of dynamic property User::$hash is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:57:33 - strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Documents\eshop\core\Cleaner.class.php:10
+28-05-2024 10:59:33 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:59:33 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 10:59:33 - Undefined property: User::$hash in C:\Users\User\Documents\eshop\app\admin\login.php:15
+28-05-2024 10:59:33 - password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\Users\User\Documents\eshop\app\admin\login.php:15
+28-05-2024 11:00:10 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:00:10 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:01:01 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:01:01 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:07:11 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:07:11 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:09:42 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:09:42 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:09:43 - Creation of dynamic property User::$hash is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:09:43 - password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\Users\User\Documents\eshop\app\admin\login.php:13
+28-05-2024 11:11:30 - Creation of dynamic property User::$hash is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:11:30 - password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\Users\User\Documents\eshop\app\admin\login.php:13
+28-05-2024 11:14:29 - Undefined property: User::$password in C:\Users\User\Documents\eshop\app\admin\login.php:13
+28-05-2024 11:14:29 - password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\Users\User\Documents\eshop\app\admin\login.php:13
+28-05-2024 11:15:48 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:15:48 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:15
+28-05-2024 11:15:48 - password_hash(): Passing null to parameter #1 ($password) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:15
+28-05-2024 11:15:48 - password_verify(): Passing null to parameter #2 ($hash) of type string is deprecated in C:\Users\User\Documents\eshop\app\admin\login.php:13
+28-05-2024 11:19:17 - syntax error, unexpected identifier "header", expecting "," or ";" in C:\Users\User\Documents\eshop\app\admin\login.php:23
+28-05-2024 11:19:39 - Object of class User could not be converted to string in C:\Users\User\Documents\eshop\app\admin\login.php:22
+28-05-2024 11:27:28 - Call to undefined function mbstring() in C:\Users\User\Documents\eshop\app\admin\login.php:23
+28-05-2024 11:38:46 - Undefined array key "hash" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:38:46 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:15
+28-05-2024 11:38:46 - strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Documents\eshop\core\Cleaner.class.php:10
+28-05-2024 11:42:30 - SQLSTATE[42703]: Undefined column: 7 ОШИБКА:  столбец "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae" не существует
+LINE 1: SELECT spSaveUser('a', a665a45920422f9d417e4867efdc4fb8a04a1...
+                               ^ in C:\Users\User\Documents\eshop\core\Eshop.class.php:156
+28-05-2024 11:48:07 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:48:07 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:48:17 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:48:17 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:50:00 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:50:00 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:50:39 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:50:39 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:52:20 - Undefined array key "hash" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:52:20 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:53:08 - Undefined array key "hash" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:53:08 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:53:08 - SQLSTATE[42601]: Syntax error: 7 ОШИБКА:  ошибка синтаксиса (примерное положение: ",")
+LINE 1: SELECT spSaveUser('a', , 'drobysheva_1995@list.ru')
+                               ^ in C:\Users\User\Documents\eshop\core\Eshop.class.php:156
+28-05-2024 11:54:50 - Undefined array key "hash" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:54:50 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:55:01 - Undefined array key "hash" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:55:01 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:56:12 - Undefined array key "hash" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:56:12 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:57:52 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:57:52 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:58:53 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 11:58:53 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 12:00:25 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:13
+28-05-2024 12:00:25 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:13
+28-05-2024 12:00:25 - User::__construct(): Argument #1 ($item) must be of type array, User given, called in C:\Users\User\Documents\eshop\app\admin\login.php on line 10 in C:\Users\User\Documents\eshop\core\User.class.php:9
+28-05-2024 12:04:03 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:13
+28-05-2024 12:04:03 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:13
+28-05-2024 12:06:16 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:13
+28-05-2024 12:06:16 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:13
+28-05-2024 12:07:07 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:13
+28-05-2024 12:07:07 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:13
+28-05-2024 12:09:44 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 12:09:44 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:15
+28-05-2024 12:12:53 - Call to undefined function int() in C:\Users\User\Documents\eshop\app\admin\login.php:22
+28-05-2024 12:22:03 - Call to undefined function str() in C:\Users\User\Documents\eshop\app\admin\login.php:22
+28-05-2024 12:55:50 - Undefined array key "hash" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 12:55:50 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:15
+28-05-2024 12:55:50 - strip_tags(): Passing null to parameter #1 ($string) of type string is deprecated in C:\Users\User\Documents\eshop\core\Cleaner.class.php:10
+28-05-2024 12:59:10 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 12:59:10 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:15
+28-05-2024 13:00:08 - Undefined array key "password" in C:\Users\User\Documents\eshop\core\User.class.php:14
+28-05-2024 13:00:08 - hash(): Passing null to parameter #2 ($data) of type string is deprecated in C:\Users\User\Documents\eshop\core\User.class.php:15
